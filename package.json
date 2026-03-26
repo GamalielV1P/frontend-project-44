@@ -21,8 +21,11 @@
     "brain-games": "bin/brain-games.js"
   },
   "dependencies": {
+    "form-data": "^4.0.5",
     "lodash": "^4.17.23",
-    "makefile": "^0.0.2"
+    "makefile": "^0.0.2",
+    "module_name": "^1.0.0",
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "@eslint/create-config": "^1.11.0",
