@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 
 import runGame from '../src/index.js'
-import calcGame from '../src/games/calc.js'
+import gcdGame from '../src/games/gcd.js'
 
-runGame(calcGame)
+runGame(gcdGame)
