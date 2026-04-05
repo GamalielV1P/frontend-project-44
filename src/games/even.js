@@ -1,15 +1,12 @@
-// src/games/even.js
-const isEven = num => num % 2 === 0
+const isEven = (num) => num % 2 === 0;
 
-const getRound = () => {
-  const number = Math.floor(Math.random() * 100) + 1
-  const correctAnswer = isEven(number) ? 'yes' : 'no'
-  return {
-    question: number.toString(),
-    correctAnswer,
-  }
-}
+const generateRound = () => {
+  const question = Math.floor(Math.random() * 100) + 1;
+  const correctAnswer = isEven(question) ? 'yes' : 'no';
+  return { question, correctAnswer };
+};
 
-const rule = 'Answer "yes" if the number is even, otherwise answer "no".'
-
-export default { getRound, rule }
+export const evenGame = {
+  description: 'Answer "yes" if the number is even, otherwise answer "no".',
+  generateRound,
+};
