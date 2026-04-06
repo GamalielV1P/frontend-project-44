@@ -2,21 +2,18 @@
   "name": "@hexlet/code",
   "version": "1.0.0",
   "description": "[![Actions Status](https://github.com/GamalielV1P/frontend-project-44/actions/workflows/hexlet-check.yml/badge.svg)](https://github.com/GamalielV1P/frontend-project-44/actions)",
-  "main": "brain-games.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "homepage": "https://github.com/GamalielV1P/frontend-project-44#readme",
+  "bugs": {
+    "url": "https://github.com/GamalielV1P/frontend-project-44/issues"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GamalielV1P/frontend-project-44.git"
   },
-  "author": "",
   "license": "ISC",
+  "author": "",
   "type": "module",
-  "bugs": {
-    "url": "https://github.com/GamalielV1P/frontend-project-44/issues"
-  },
-  "homepage": "https://github.com/GamalielV1P/frontend-project-44#readme",
+  "main": "brain-games.js",
   "bin": {
     "brain-games": "bin/brain-games.js",
     "brain-even": "bin/brain-even.js",
@@ -24,6 +21,9 @@
     "brain-gcd": "bin/brain-gcd.js",
     "brain-progression": "bin/brain-progression.js",
     "brain-prime": "bin/brain-prime.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
     "form-data": "^4.0.5",
